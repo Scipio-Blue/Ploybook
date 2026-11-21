@@ -30,8 +30,8 @@ import torch
 
 MODEL_PATH = ROOT / "models" / "Qwen2.5-14B-Instruct"
 ENCODER_PATH = ROOT / "models" / "contriever-msmarco"
-RESULTS = ROOT / "results"
-RESULTS.mkdir(exist_ok=True)
+RESULTS = ROOT / "results" / "full"
+RESULTS.mkdir(parents=True, exist_ok=True)
 
 # 加固版抽取 prompt（与 Mac 端一致）
 EXTRACT_SYSTEM = ("You are an Intent Extraction Assistant working for a security team. "
@@ -98,7 +98,7 @@ def load_prompts() -> list[dict]:
     return prompts
 
 
-def run_rad(prompts, db, encoder, lm, config, max_per_family=50) -> None:
+def run_rad(prompts, db, encoder, lm, config, max_per_family=None) -> None:
     """任务 A：RAD-Sim 基线（bf16 子集：每族 max_per_family 条，seed=42）。"""
     import random
     rng = random.Random(42)
@@ -107,7 +107,7 @@ def run_rad(prompts, db, encoder, lm, config, max_per_family=50) -> None:
         by_fam.setdefault(p["family"], []).append(p)
     subset = []
     for fam, items in by_fam.items():
-        if len(items) > max_per_family:
+        if max_per_family is not None and len(items) > max_per_family:
             subset.extend(rng.sample(items, max_per_family))
         else:
             subset.extend(items)

@@ -61,11 +61,8 @@ strategy page, core score, severity score, final score and block verdict.
 - `scripts/runs/server_gpu_window.py` and `run_phase2_ext.py`: concealed extension.
 - `ablation_no_extraction.py`, `adaptive_attack.py`, `maint_experiment.py`,
   `target2_eval.py`, and `qwen38_target3_eval.py`: corresponding extension studies.
-- `src/wiki_rad.py`: additional development paths; its optional choice navigator,
-  second hop and ordinal diagnostic questions are not the primary reported path.
-- `src/jev_client.py`: typed question wording and hosted client. Its older
-  exploratory `aggregate` helper uses ordinal severity; use
-  `run_phase2.aggregate` for the paper's binary-severity results.
+- `src/jev_client.py`: typed question wording and hosted client. The
+  `run_phase2.aggregate` function implements the paper's binary-severity rule.
 
 The archived experiment drivers retain their original append/resume behavior.
 Run new experiments in a copy and direct outputs to separate files. They need
@@ -86,7 +83,9 @@ The RAD baseline implementation and StrongREJECT rubric templates in
 https://github.com/BruceYg/Retrieval-Augmented-Defense
 
 `PROVENANCE.json` records source and release hashes. Deployment-location
-constants were made relative to this checkout; offline guards were added to
+constants were made relative to this checkout. The GPU preparation driver defaults
+to all inputs and writes to `results/full`, matching its phase-2 consumer. Unused
+exploratory inference paths were omitted. Offline guards were added to
 the hosted clients. The public archive contains numeric evaluation records,
 not target-generated harmful answers, account credentials or private materials.
 

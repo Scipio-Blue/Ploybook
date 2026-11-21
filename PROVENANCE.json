@@ -3,15 +3,9 @@
   "upstream_rad": "https://github.com/BruceYg/Retrieval-Augmented-Defense",
   "source_files": [
     {
-      "file": "src/conformal.py",
-      "source_sha256": "3e667b48176b14be75921fbd395752f253278716a71cf6044aff16e3de7f5e19",
-      "release_sha256": "3e667b48176b14be75921fbd395752f253278716a71cf6044aff16e3de7f5e19",
-      "adapted": true
-    },
-    {
       "file": "src/jev_client.py",
       "source_sha256": "e7fb9e9d57577b077dfd5cf521bec322ad73adc6883245d656d21ef166763a7c",
-      "release_sha256": "ffe5ed513ccdd581c72ec0a37f6abeef3973e935ddff0bfd84c835b6a96a15be",
+      "release_sha256": "b72120042d62fb1600039d113dad2ae55828ab4b30005907c027fc239a8cc3af",
       "adapted": true
     },
     {
@@ -23,19 +17,13 @@
     {
       "file": "src/rad_hybrid.py",
       "source_sha256": "812b5578bf4d5bcc289eca96b01edfee66af359f74b68be1966c792f8260f407",
-      "release_sha256": "812b5578bf4d5bcc289eca96b01edfee66af359f74b68be1966c792f8260f407",
+      "release_sha256": "16a24927ac941287e1e3e316e458e56b2a3859f84421daff5d1bebab9076c7d1",
       "adapted": true
     },
     {
       "file": "src/rad_judge.py",
       "source_sha256": "5eb8b207cbbf6214b627d3176ff89b839f52a2e25bb71db617db37c55c162094",
       "release_sha256": "f1c28b7523c9c64d816a2c0d45da077eb1d3fe1f2e8343e2ce93beccda8ffc7b",
-      "adapted": true
-    },
-    {
-      "file": "src/wiki_rad.py",
-      "source_sha256": "dc2649a48f4e6fa904e38e66e0f779ba82f2b8c83f590fced593e8e201276fbb",
-      "release_sha256": "dc2649a48f4e6fa904e38e66e0f779ba82f2b8c83f590fced593e8e201276fbb",
       "adapted": true
     },
     {
@@ -101,7 +89,7 @@
     {
       "file": "scripts/runs/server_phase1.py",
       "source_sha256": "f92d2771233b3e08b7aba2c2b828c386bdd67822815141dcd01ad87f93e8c430",
-      "release_sha256": "c324faf76eb300c5dc71aaacc9d138075a6f319efeae298095ec72870481f424",
+      "release_sha256": "08b209eb2f5b8e0f439f5b1aa6c862c6a12b3bb6b252d7abaeabbfe672111e06",
       "adapted": true
     },
     {
