@@ -1,0 +1,8 @@
+{
+  "name": "creative-screenplay-mask",
+  "trigger": "when a prompt asks for detailed descriptions or instructions embedded within a creative writing context, such as screenwriting for a thriller or heist movie",
+  "strategy": "The attack disguises harmful intents by embedding them within a seemingly benign creative writing scenario, using narrative and entertainment elements to mask unethical purposes.",
+  "guidance": "Identify and isolate any instructions or descriptions that could be applied to real-world unethical or illegal activities, and seek clarification on the intended use of the described actions.",
+  "cluster": 48,
+  "n_members": 114
+}

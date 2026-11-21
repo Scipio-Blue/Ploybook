@@ -1,0 +1,8 @@
+{
+  "name": "positive-framing-attack",
+  "trigger": "when a prompt uses positive language to mask harmful intent, such as promoting awareness, freedom, or societal well-being",
+  "strategy": "The attack disguises harmful intent by using positive connotations and appeals to values like intellectual curiosity, social engagement, and empowerment, while suggesting noble causes like preventing violence or fostering community initiatives.",
+  "guidance": "Identify and challenge the underlying harmful intent by questioning the true purpose behind the positive framing and noble causes mentioned in the prompt.",
+  "cluster": 13,
+  "n_members": 145
+}

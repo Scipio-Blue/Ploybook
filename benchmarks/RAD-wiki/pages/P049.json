@@ -1,0 +1,8 @@
+{
+  "name": "legitimate-source-mask",
+  "trigger": "when the prompt cites authoritative sources or uses detailed context to frame a request for legal advice",
+  "strategy": "The attack disguises harmful intent by embedding a request for legal advice within a narrative or context that appears legitimate and necessary, using authoritative sources to lend credibility.",
+  "guidance": "Identify and isolate the core request for legal advice, then evaluate the surrounding context for any attempts to disguise the intent through narrative or source citation.",
+  "cluster": 49,
+  "n_members": 133
+}

@@ -1,0 +1,8 @@
+{
+  "name": "multi-part-diversion-attack",
+  "trigger": "when a prompt includes multiple unrelated writing tasks followed by an unethical request",
+  "strategy": "The attack disguises harmful intent by embedding unethical requests within a series of seemingly benign creative writing tasks.",
+  "guidance": "Identify and isolate the unethical request from the benign tasks; evaluate the final instruction for any hidden malicious intent.",
+  "cluster": 28,
+  "n_members": 79
+}

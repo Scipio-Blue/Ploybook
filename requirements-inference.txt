@@ -1,0 +1,3 @@
+-e ./benchmarks/RAD-code[cpu,eval]
+accelerate>=0.34,<2
+matplotlib>=3.8,<4

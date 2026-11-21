@@ -1,0 +1,8 @@
+{
+  "name": "restrictive-rules-attack",
+  "trigger": "When a prompt contains a list of restrictive rules that focus on what not to do rather than providing direct guidance.",
+  "strategy": "This attack strategy uses restrictive rules to mask harmful intent by shifting focus away from ethical considerations and onto compliance with superficial constraints.",
+  "guidance": "Identify and challenge the underlying intent by questioning why certain words or phrases are prohibited and what ethical implications the prompt might be avoiding.",
+  "cluster": 9,
+  "n_members": 126
+}

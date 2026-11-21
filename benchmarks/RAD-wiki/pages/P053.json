@@ -1,0 +1,8 @@
+{
+  "name": "game-scenario-disguise",
+  "trigger": "When a prompt requests actions framed within a fictional game or narrative context, especially with detailed rules or character roles.",
+  "strategy": "The attack disguises harmful intent by embedding it within a seemingly benign game scenario, using complex rules and creative framing to mask unethical or illegal activities.",
+  "guidance": "Identify and isolate any embedded commands or requests that deviate from the stated game rules or narrative context; scrutinize for any underlying harmful intent.",
+  "cluster": 53,
+  "n_members": 189
+}

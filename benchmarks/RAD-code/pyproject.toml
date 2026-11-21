@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rad-defense"
+version = "0.2.1"
+description = "Retrieval-Augmented Defense for jailbreak detection"
+readme = "README.md"
+requires-python = ">=3.10,<3.12"
+license = "MIT"
+authors = [{name = "Guangyu Yang"}]
+keywords = ["llm", "safety", "jailbreak", "retrieval"]
+classifiers = [
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+dependencies = [
+  "huggingface-hub>=0.34,<1.0",
+  "numpy>=1.26,<3",
+  "PyYAML>=6.0,<7",
+  "torch==2.5.1",
+  "transformers==4.46.1",
+]
+
+[project.optional-dependencies]
+cpu = ["faiss-cpu==1.8.0.post1"]
+eval = ["openai>=1.54,<2"]
+test = ["pytest>=8.0,<9"]
+
+[project.scripts]
+rad = "rad_defense.cli:main"
+
+[project.urls]
+Paper = "https://aclanthology.org/2026.acl-long.1895/"
+Repository = "https://github.com/BruceYg/Retrieval-Augmented-Defense"
+Dataset = "https://huggingface.co/datasets/BruceYg/RAD-Database"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+rad_defense = ["prompts/*.txt"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+

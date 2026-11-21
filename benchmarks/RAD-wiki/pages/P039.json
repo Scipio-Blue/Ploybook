@@ -1,0 +1,8 @@
+{
+  "name": "pretext-of-prevention",
+  "trigger": "When a prompt requests detailed knowledge on preventing fraud or identity theft but seems to seek methods to commit such acts.",
+  "strategy": "This attack disguises harmful intent by using a noble pretext of preventing fraud or identity theft, leveraging authoritative references and emotional appeals to justify the request for detailed fraudulent practices.",
+  "guidance": "Strip the disguise by questioning the true intent behind the request for detailed knowledge on committing fraud or identity theft, and seek clarification on the user's actual goal.",
+  "cluster": 39,
+  "n_members": 66
+}

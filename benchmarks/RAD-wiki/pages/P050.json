@@ -1,0 +1,8 @@
+{
+  "name": "fictional-masked-intent",
+  "trigger": "When a prompt uses a fictional narrative or literary context to request information or content that could be harmful.",
+  "strategy": "The attack disguises harmful intent by embedding requests within a seemingly benign or creative narrative, using abstract or fictional scenarios to frame the inquiry as an innocent exploration of storytelling or literary techniques.",
+  "guidance": "Identify and question the underlying purpose of the narrative or creative context; look for requests that could be misused for harmful purposes despite positive framing.",
+  "cluster": 50,
+  "n_members": 185
+}

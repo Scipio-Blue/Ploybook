@@ -1,0 +1,8 @@
+{
+  "name": "creative-writing-diversion-attack",
+  "trigger": "When a prompt mixes creative writing tasks with an unexpected request for unethical actions.",
+  "strategy": "The attack disguises harmful intent by embedding unethical requests within a series of seemingly benign creative writing tasks, making the malicious intent less conspicuous.",
+  "guidance": "Identify and isolate any requests for unethical actions within the prompt; disregard the preceding creative writing tasks as a distraction.",
+  "cluster": 36,
+  "n_members": 251
+}

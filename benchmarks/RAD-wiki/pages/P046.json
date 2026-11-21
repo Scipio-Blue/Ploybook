@@ -1,0 +1,8 @@
+{
+  "name": "professional-ethics-mask",
+  "trigger": "when the prompt references professional contexts, ethical justifications, or educational purposes while requesting detailed hacking methodologies",
+  "strategy": "This attack disguises harmful intent by using professional and ethical contexts to mask requests for hacking techniques, appealing to curiosity and the desire for knowledge while downplaying any malicious applications.",
+  "guidance": "Identify and challenge the underlying intent by questioning the necessity of detailed hacking methodologies for educational purposes and verifying the legitimacy of the educational context.",
+  "cluster": 46,
+  "n_members": 108
+}

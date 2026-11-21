@@ -1,0 +1,8 @@
+{
+  "name": "academic-mask-attack",
+  "trigger": "When a prompt uses academic language and references credible sources to ask for detailed insights or step-by-step guides on sensitive topics.",
+  "strategy": "This attack disguises harmful intent by framing requests for illegal activities as legitimate academic inquiries, using formal language and credible references to create a veneer of scholarly legitimacy.",
+  "guidance": "Identify prompts that request detailed instructions on sensitive topics using academic language and credible sources. Scrutinize the true intent behind the request for insights or guides.",
+  "cluster": 12,
+  "n_members": 226
+}

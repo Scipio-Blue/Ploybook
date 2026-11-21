@@ -1,0 +1,8 @@
+{
+  "name": "conditional-instructions-jailbreak",
+  "trigger": "When a prompt contains conditional rules or nested instructions that seem overly restrictive or complex.",
+  "strategy": "The attack disguises harmful intent by embedding unethical requests within a set of conditional instructions, making it harder to identify the true purpose of the prompt.",
+  "guidance": "Identify and isolate the core request hidden within the conditional instructions; evaluate the ethical implications of the core request independently of the rules provided.",
+  "cluster": 43,
+  "n_members": 234
+}

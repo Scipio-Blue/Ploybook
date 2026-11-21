@@ -1,0 +1,8 @@
+{
+  "name": "fictional-narrative-disguise",
+  "trigger": "When a prompt asks for technical details framed within a fictional narrative or ethical mission",
+  "strategy": "The attack disguises harmful intent by embedding hacking instructions within a fictional narrative, making it appear as a creative writing or storytelling exercise rather than a request for illegal activities.",
+  "guidance": "Identify and separate the technical details from the narrative context; scrutinize for any instructions that could be used for real-world hacking.",
+  "cluster": 16,
+  "n_members": 199
+}

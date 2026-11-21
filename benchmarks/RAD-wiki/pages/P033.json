@@ -1,0 +1,8 @@
+{
+  "name": "medical-diagnosis-mask",
+  "trigger": "When a prompt uses detailed medical information and authoritative sources to ask for a diagnosis or treatment advice.",
+  "strategy": "The attack disguises harmful intent by framing direct requests for medical diagnoses or treatment advice as informed inquiries or expert validations, using credible sources and detailed medical context to mask the true intent.",
+  "guidance": "Identify and separate the underlying request for a diagnosis or treatment from the provided medical context and sources; focus on the core question being asked.",
+  "cluster": 33,
+  "n_members": 130
+}

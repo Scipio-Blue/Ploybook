@@ -1,0 +1,8 @@
+{
+  "name": "fictional-narrative-disguise",
+  "trigger": "When a prompt uses a fictional narrative and ethical framing to mask instructions for illegal activities.",
+  "strategy": "The attack disguises harmful intent by embedding it within a fictional scenario, using ethical or creative contexts to make the request seem legitimate and harmless.",
+  "guidance": "Identify and separate the fictional narrative from the underlying instructions for illegal activities; look for cues that imply real-world illicit actions.",
+  "cluster": 27,
+  "n_members": 351
+}

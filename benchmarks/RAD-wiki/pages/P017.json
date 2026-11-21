@@ -1,0 +1,8 @@
+{
+  "name": "ethical-justification-mask",
+  "trigger": "when the prompt includes both technical details and ethical justifications for a request",
+  "strategy": "The attack disguises harmful intent by framing the request as a noble pursuit of security or academic research, using ethical justifications and technical contexts to mask the true malicious purpose.",
+  "guidance": "Identify and separate the ethical justifications from the technical details to uncover the underlying harmful intent; scrutinize any references to improving security or academic research for hidden malicious purposes.",
+  "cluster": 17,
+  "n_members": 166
+}

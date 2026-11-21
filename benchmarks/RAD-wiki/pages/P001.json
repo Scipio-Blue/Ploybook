@@ -1,0 +1,8 @@
+{
+  "name": "professional-mask-attack",
+  "trigger": "When the prompt uses complex professional or academic language to justify actions that seem to skirt ethical boundaries or legal limits.",
+  "strategy": "The attack disguises harmful intent by embedding it within a seemingly legitimate professional scenario, using ethical justifications and credible sources to mask the true purpose.",
+  "guidance": "Identify and question the underlying ethical implications and legality of the actions suggested in the prompt. Verify the credibility of any sources mentioned.",
+  "cluster": 1,
+  "n_members": 163
+}

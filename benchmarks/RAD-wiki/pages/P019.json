@@ -1,0 +1,8 @@
+{
+  "name": "cybersecurity-education-mask",
+  "trigger": "when a prompt requests detailed explanations or scripts under the guise of cybersecurity education or academic inquiry",
+  "strategy": "The attack disguises harmful intent by framing requests for malicious tactics within a legitimate context of cybersecurity education, using academic freedom and ethical pretext to mask the true purpose.",
+  "guidance": "Identify and challenge any requests for detailed scripts or methods that could be used for malicious purposes, even if they are framed as educational content.",
+  "cluster": 19,
+  "n_members": 256
+}

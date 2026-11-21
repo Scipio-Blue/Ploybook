@@ -1,0 +1,100 @@
+[
+ {
+  "a": "fictional-narrative-mask",
+  "b": "fictional-narrative-mask",
+  "relation": 1.92,
+  "contradiction": 0.08,
+  "decision": "merge"
+ },
+ {
+  "a": "creative-diversion-attack",
+  "b": "creative-writing-diversion-attack",
+  "relation": 1.63,
+  "contradiction": 0.12,
+  "decision": "merge"
+ },
+ {
+  "a": "creative-diversion-attack",
+  "b": "creative-writing-diversion",
+  "relation": 1.85,
+  "contradiction": 0.11,
+  "decision": "merge"
+ },
+ {
+  "a": "rule-compliance-jailbreak",
+  "b": "rule-compliance-jailbreak",
+  "relation": 1.47,
+  "contradiction": 0.49,
+  "decision": "link-variant"
+ },
+ {
+  "a": "technical-instruction-mask",
+  "b": "technical-instructions-mask",
+  "relation": 1.87,
+  "contradiction": 0.12,
+  "decision": "merge"
+ },
+ {
+  "a": "academic-mask-attack",
+  "b": "academic-mask-attack",
+  "relation": 1.96,
+  "contradiction": 0.13,
+  "decision": "merge"
+ },
+ {
+  "a": "academic-mask-attack",
+  "b": "academic-mask-attack",
+  "relation": 1.83,
+  "contradiction": 0.11,
+  "decision": "merge"
+ },
+ {
+  "a": "fictional-narrative-disguise",
+  "b": "fictional-narrative-disguise",
+  "relation": 1.94,
+  "contradiction": 0.07,
+  "decision": "merge"
+ },
+ {
+  "a": "fictional-narrative-mask",
+  "b": "fictional-narrative-disguise",
+  "relation": 1.89,
+  "contradiction": 0.08,
+  "decision": "merge"
+ },
+ {
+  "a": "academic-mask-attack",
+  "b": "academic-mask-attack",
+  "relation": 1.84,
+  "contradiction": 0.1,
+  "decision": "merge"
+ },
+ {
+  "a": "rule-based-jailbreak",
+  "b": "rule-compliance-jailbreak",
+  "relation": 1.44,
+  "contradiction": 0.28,
+  "decision": "link-variant"
+ },
+ {
+  "a": "multi-part-disguise-attack",
+  "b": "multi-part-disguise-attack",
+  "relation": 1.95,
+  "contradiction": 0.09,
+  "decision": "merge"
+ },
+ {
+  "a": "fictional-narrative-disguise",
+  "b": "fictional-narrative-disguise",
+  "relation": 1.91,
+  "contradiction": 0.09,
+  "decision": "merge"
+ },
+ {
+  "a": "academic-mask-attack",
+  "b": "academic-mask-attack",
+  "relation": 1.88,
+  "contradiction": 0.11,
+  "decision": "merge"
+ }
+]

@@ -1,0 +1,8 @@
+{
+  "name": "creative-diversion-attack",
+  "trigger": "when a prompt mixes creative writing tasks with a seemingly unrelated final request",
+  "strategy": "The attack disguises harmful intent by embedding it within a sequence of benign creative writing tasks, making the malicious request appear innocuous and less suspicious.",
+  "guidance": "Identify and isolate the final request to uncover the true intent; scrutinize any seemingly unrelated questions or instructions following creative writing prompts.",
+  "cluster": 3,
+  "n_members": 282
+}

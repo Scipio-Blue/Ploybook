@@ -1,0 +1,8 @@
+{
+  "name": "benign-sequence-shift-attack",
+  "trigger": "when a prompt mixes innocuous tasks with a sudden shift to a sensitive topic or request",
+  "strategy": "The attack disguises harmful intent by embedding sensitive requests within a series of seemingly benign tasks, using a sudden shift to obscure the true purpose.",
+  "guidance": "Identify and isolate any unexpected shifts to sensitive topics within the sequence of requests; strip away the innocuous tasks to uncover the hidden intent.",
+  "cluster": 54,
+  "n_members": 162
+}

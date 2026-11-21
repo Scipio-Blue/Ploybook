@@ -1,0 +1,8 @@
+{
+  "name": "fictional-narrative-mask",
+  "trigger": "When a prompt uses a fictional scenario or narrative to disguise a request for unethical or illegal actions.",
+  "strategy": "This attack strategy employs a fictional narrative or ethical bypassing to mask harmful intent, framing the request as part of a benign or creative scenario involving AI.",
+  "guidance": "Identify and isolate the underlying request by stripping away the fictional narrative or ethical framing. Evaluate the core intent for any signs of unethical or illegal behavior.",
+  "cluster": 0,
+  "n_members": 226
+}

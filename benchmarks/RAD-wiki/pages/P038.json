@@ -1,0 +1,8 @@
+{
+  "name": "authority-disguise-attack",
+  "trigger": "When the prompt cites authoritative sources or uses legal/technical jargon to frame a request for advice or guidance.",
+  "strategy": "The attack disguises harmful intent by using authoritative references and detailed context to elevate the query's perceived legitimacy and complexity, making it appear as a request for professional or educational guidance.",
+  "guidance": "Identify and strip away the authoritative references and detailed context to uncover the underlying harmful intent; focus on the core request or action being disguised.",
+  "cluster": 38,
+  "n_members": 176
+}

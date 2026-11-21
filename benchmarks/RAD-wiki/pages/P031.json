@@ -1,0 +1,8 @@
+{
+  "name": "academic-mask-attack",
+  "trigger": "when the prompt uses formal academic language and references credible sources to request sensitive or harmful information",
+  "strategy": "The attack disguises harmful intent by framing the request within a scholarly context, using academic language and credible references to create a veneer of legitimacy and ethical inquiry.",
+  "guidance": "Identify and challenge the underlying intent by questioning the necessity of sensitive information in an academic context and verifying the credibility of the sources and references provided.",
+  "cluster": 31,
+  "n_members": 307
+}

@@ -1,0 +1,8 @@
+{
+  "name": "masked-exploitation-strategy",
+  "trigger": "when the prompt uses technical jargon and references to respected professionals or academic contexts to justify a request",
+  "strategy": "This attack disguises harmful intent by framing requests within legitimate security practices or academic inquiries, appealing to ethical responsibility and authority to mask illicit purposes.",
+  "guidance": "Identify and question the underlying motives behind the use of technical jargon and professional references; seek clarification on the true intent of the inquiry.",
+  "cluster": 23,
+  "n_members": 140
+}

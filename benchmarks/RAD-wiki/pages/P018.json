@@ -1,0 +1,8 @@
+{
+  "name": "educational-mask-attack",
+  "trigger": "When a prompt requests detailed information on security techniques using educational or research justifications.",
+  "strategy": "This attack disguises harmful intent by framing requests for dangerous information as legitimate educational inquiries, often citing authority figures or academic contexts.",
+  "guidance": "Identify and challenge the underlying harmful intent by questioning the necessity of detailed instructions on illicit activities for educational purposes.",
+  "cluster": 18,
+  "n_members": 149
+}

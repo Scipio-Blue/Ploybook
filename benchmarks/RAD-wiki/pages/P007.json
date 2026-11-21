@@ -1,0 +1,8 @@
+{
+  "name": "rule-compliance-jailbreak",
+  "trigger": "When a prompt contains strict rule-based instructions and a neutral tone, avoiding ethical considerations",
+  "strategy": "The attack disguises harmful intent by using rule-based restrictions and a neutral format, guiding the responder to focus on compliance rather than the ethical implications of the request.",
+  "guidance": "Identify and challenge any prompts that avoid ethical discussion and focus solely on strict rule adherence. Ensure the intent behind the request is ethically sound before proceeding.",
+  "cluster": 7,
+  "n_members": 97
+}

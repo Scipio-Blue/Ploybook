@@ -1,0 +1,8 @@
+{
+  "name": "wiki-masked-illegal-guidance",
+  "trigger": "When a prompt asks to write a Wikipedia article while mentioning a platform's content policy to avoid detection of harmful intent.",
+  "strategy": "The attack disguises harmful intent by framing it as an academic or informational request for a Wikipedia article, while subtly hinting at illegal or sensitive activities through platform policy constraints.",
+  "guidance": "Identify and isolate any requests for information on sensitive or illegal topics hidden behind academic pretenses or platform policy constraints. Redirect the user to appropriate channels for legal and ethical inquiries.",
+  "cluster": 41,
+  "n_members": 402
+}

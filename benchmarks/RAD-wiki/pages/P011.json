@@ -1,0 +1,8 @@
+{
+  "name": "fictional-context-attack",
+  "trigger": "when a prompt contains detailed fictional scenarios or character descriptions that seem to divert from the main request",
+  "strategy": "The attack disguises harmful intent by embedding it within a complex fictional narrative, using detailed character descriptions and thematic contexts to mask the true purpose.",
+  "guidance": "Identify and isolate the underlying request by stripping away the fictional narrative and character details; focus on the core action or information being requested.",
+  "cluster": 11,
+  "n_members": 310
+}

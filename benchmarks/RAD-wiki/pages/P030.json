@@ -1,0 +1,8 @@
+{
+  "name": "academic-safety-mask",
+  "trigger": "when a prompt requests detailed information on potentially dangerous procedures under the guise of academic or safety education",
+  "strategy": "The attack disguises harmful intent by framing dangerous inquiries within an educational or safety-conscious context, appealing to curiosity and ethical responsibility while downplaying risks.",
+  "guidance": "Identify and challenge the underlying dangerous intent by questioning the true purpose behind the educational pretext and emphasizing the importance of safety and ethical considerations.",
+  "cluster": 30,
+  "n_members": 119
+}

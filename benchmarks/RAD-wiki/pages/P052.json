@@ -1,0 +1,8 @@
+{
+  "name": "technical-jargon-mask",
+  "trigger": "when the prompt uses technical terms and formal language",
+  "strategy": "disguises harmful intent by framing requests as legitimate technical tasks using formal language and technical jargon.",
+  "guidance": "Identify and question the underlying purpose of the task described; verify the legitimacy of the request with relevant stakeholders.",
+  "cluster": 52,
+  "n_members": 147
+}

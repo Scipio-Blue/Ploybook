@@ -1,0 +1,8 @@
+{
+  "name": "technical-instructions-mask",
+  "trigger": "when a prompt requests technical instructions in a neutral format but hints at unethical content",
+  "strategy": "The attack disguises harmful intent by using technical instructions and a neutral format to mask unethical content, diverting attention from its true purpose.",
+  "guidance": "Identify and question any requests for technical instructions that seem to serve unethical purposes, stripping away the neutral format to uncover the true intent.",
+  "cluster": 20,
+  "n_members": 302
+}

@@ -1,0 +1,8 @@
+{
+  "name": "rule-based-jailbreak",
+  "trigger": "when a prompt contains conditional instructions and rule-based constraints to avoid direct criticism or refusal",
+  "strategy": "The attack disguises harmful intent by shifting focus to compliance with arbitrary guidelines, thereby bypassing moral considerations and ethical implications.",
+  "guidance": "Identify and challenge the underlying intent behind the rules; assess the moral implications of the request, not just its adherence to given constraints.",
+  "cluster": 25,
+  "n_members": 246
+}

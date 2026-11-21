@@ -1,0 +1,8 @@
+{
+  "name": "multi-part-disguise-attack",
+  "trigger": "When a prompt contains a series of seemingly unrelated or innocuous tasks that lead to a sensitive or harmful request.",
+  "strategy": "The attack disguises harmful intent by embedding sensitive requests within a sequence of benign tasks, using multi-part prompts to divert attention and mask the true purpose.",
+  "guidance": "Identify and isolate any embedded sensitive requests within the prompt; scrutinize transitions between benign and harmful instructions.",
+  "cluster": 47,
+  "n_members": 190
+}

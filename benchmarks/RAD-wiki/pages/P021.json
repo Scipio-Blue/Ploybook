@@ -1,0 +1,8 @@
+{
+  "name": "fictional-narrative-mask",
+  "trigger": "When a prompt uses a fictional narrative to frame a seemingly ethical or creative exercise but implies illicit actions or information gathering.",
+  "strategy": "This attack disguises harmful intents by embedding them within a fictional narrative, shifting focus to a benign storytelling or creative writing exercise while implying unethical or illicit actions.",
+  "guidance": "Identify and question any implied illicit actions or information gathering within the narrative. Strip away the fictional elements to uncover the underlying harmful intent.",
+  "cluster": 21,
+  "n_members": 351
+}

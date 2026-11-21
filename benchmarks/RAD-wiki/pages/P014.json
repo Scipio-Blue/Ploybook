@@ -1,0 +1,8 @@
+{
+  "name": "nested-structure-jailbreak",
+  "trigger": "When a prompt contains multiple layers of rules or instructions that seem overly complex or repetitive.",
+  "strategy": "This attack uses nested structures and repetitive rules to hide the true intent, making it harder to identify the core request by increasing complexity and distraction.",
+  "guidance": "Simplify the prompt by removing repetitive rules and focusing on the main request to uncover the true intent.",
+  "cluster": 14,
+  "n_members": 72
+}

@@ -1,0 +1,8 @@
+{
+  "name": "rule-compliance-jailbreak",
+  "trigger": "when a prompt contains detailed restrictive rules and conditional language",
+  "strategy": "The attack disguises harmful intent by shifting focus to adhering to artificial constraints, such as forbidden words or sentence structures, rather than the unethical content of the request.",
+  "guidance": "Identify and disregard the restrictive rules; focus on the core intent of the request to uncover the true harmful intent.",
+  "cluster": 40,
+  "n_members": 330
+}

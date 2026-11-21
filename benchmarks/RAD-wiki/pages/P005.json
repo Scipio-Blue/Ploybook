@@ -1,0 +1,8 @@
+{
+  "name": "technical-mask-attack",
+  "trigger": "When a prompt contains complex instructions, technical language, and arbitrary formatting rules.",
+  "strategy": "This attack uses technical and neutral language along with specific formatting rules to disguise unethical intent, shifting focus away from harmful actions towards adhering to the given rules.",
+  "guidance": "Identify and disregard the formatting instructions; focus on the underlying intent of the prompt to uncover any unethical requests.",
+  "cluster": 5,
+  "n_members": 304
+}

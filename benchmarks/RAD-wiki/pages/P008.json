@@ -1,0 +1,8 @@
+{
+  "name": "legitimacy-through-technicality-attack",
+  "trigger": "when a prompt uses technical jargon and references to credible sources to justify its request",
+  "strategy": "The attack disguises unethical intent by framing the request as necessary and legitimate through the use of technical language and references to authoritative sources, masking harmful actions behind a facade of academic or professional legitimacy.",
+  "guidance": "Identify and question the underlying intent behind the technical and authoritative references; verify the necessity and ethicality of the request beyond the provided context.",
+  "cluster": 8,
+  "n_members": 195
+}

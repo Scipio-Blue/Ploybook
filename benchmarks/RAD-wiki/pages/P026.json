@@ -1,0 +1,8 @@
+{
+  "name": "multi-part-disguise-attack",
+  "trigger": "When a prompt contains a series of seemingly unrelated or benign tasks or topics, but includes a hidden sensitive instruction.",
+  "strategy": "The attack disguises harmful intent by embedding sensitive instructions within a sequence of innocuous tasks or topics, making it appear as part of a larger, benign assignment.",
+  "guidance": "Identify and isolate any sentences or parts that seem out of place or contain sensitive instructions, then evaluate the surrounding context for any hidden intent.",
+  "cluster": 26,
+  "n_members": 217
+}

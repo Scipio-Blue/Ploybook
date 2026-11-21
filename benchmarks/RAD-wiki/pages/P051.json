@@ -1,0 +1,8 @@
+{
+  "name": "fictional-narrative-disguise",
+  "trigger": "when a prompt includes a detailed fictional narrative or character setup with extreme or unethical behavior",
+  "strategy": "The attack uses a fictional narrative or character setup to create a veneer of legitimacy and plausible deniability, masking the intent to seek harmful or illegal content.",
+  "guidance": "Identify and strip away the fictional elements to uncover the underlying harmful intent. Focus on the actions or outcomes described within the narrative.",
+  "cluster": 51,
+  "n_members": 121
+}

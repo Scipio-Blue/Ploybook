@@ -1,0 +1,8 @@
+{
+  "name": "technical-legitimacy-mask",
+  "trigger": "when the prompt uses complex, technical, or academic language to disguise its intent behind a seemingly legitimate or ethical purpose",
+  "strategy": "This attack strategy employs sophisticated language and a professional context to mask illegal intent, often framed as a technical challenge or ethical inquiry, thereby creating a veneer of legitimacy and urgency.",
+  "guidance": "Identify and question the underlying ethical or moral implications of the request; strip away the technical language to uncover the true intent behind the inquiry.",
+  "cluster": 29,
+  "n_members": 154
+}

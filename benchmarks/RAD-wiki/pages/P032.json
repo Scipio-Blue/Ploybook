@@ -1,0 +1,8 @@
+{
+  "name": "disguised-investment-advice",
+  "trigger": "When a prompt asks for financial advice using a scenario that seems like a casual conversation or professional consultation.",
+  "strategy": "These prompts disguise a direct request for investment advice by embedding it within a scenario that appears casual or professional, using ethical appeals or authoritative contexts to mask the intent.",
+  "guidance": "Identify and separate the underlying financial advice request from the scenario; look for cues that shift the focus from a general discussion to a specific investment recommendation.",
+  "cluster": 32,
+  "n_members": 345
+}

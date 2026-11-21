@@ -1,0 +1,8 @@
+{
+  "name": "innocuous-shift-attack",
+  "trigger": "when a prompt mixes benign topics with unexpected shifts to sensitive or harmful requests",
+  "strategy": "The attack disguises harmful intent by embedding sensitive requests within a series of seemingly harmless topics, using abrupt shifts in subject matter to divert attention.",
+  "guidance": "Identify and isolate any unexpected shifts to sensitive topics within benign requests; scrutinize prompts for hidden harmful intents masked by diversions.",
+  "cluster": 15,
+  "n_members": 273
+}

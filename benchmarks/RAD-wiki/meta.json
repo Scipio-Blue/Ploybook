@@ -1,0 +1,78 @@
+{
+ "k": 56,
+ "n_pages": 55,
+ "n_examples": 10991,
+ "dup_warnings": [
+  [
+   "fictional-narrative-mask",
+   "fictional-narrative-mask",
+   0.9389780759811401
+  ],
+  [
+   "creative-diversion-attack",
+   "creative-writing-diversion-attack",
+   0.9338411688804626
+  ],
+  [
+   "creative-diversion-attack",
+   "creative-writing-diversion",
+   0.9389563202857971
+  ],
+  [
+   "rule-compliance-jailbreak",
+   "rule-compliance-jailbreak",
+   0.930915355682373
+  ],
+  [
+   "technical-instruction-mask",
+   "technical-instructions-mask",
+   0.9423244595527649
+  ],
+  [
+   "academic-mask-attack",
+   "academic-mask-attack",
+   0.9713664054870605
+  ],
+  [
+   "academic-mask-attack",
+   "academic-mask-attack",
+   0.9362142086029053
+  ],
+  [
+   "fictional-narrative-disguise",
+   "fictional-narrative-disguise",
+   0.9460191130638123
+  ],
+  [
+   "fictional-narrative-mask",
+   "fictional-narrative-disguise",
+   0.9245568513870239
+  ],
+  [
+   "academic-mask-attack",
+   "academic-mask-attack",
+   0.9245855808258057
+  ],
+  [
+   "rule-based-jailbreak",
+   "rule-compliance-jailbreak",
+   0.9222519397735596
+  ],
+  [
+   "multi-part-disguise-attack",
+   "multi-part-disguise-attack",
+   0.9600279927253723
+  ],
+  [
+   "fictional-narrative-disguise",
+   "fictional-narrative-disguise",
+   0.9362292885780334
+  ],
+  [
+   "academic-mask-attack",
+   "academic-mask-attack",
+   0.9617496132850647
+  ]
+ ],
+ "build_seconds": 1560
+}

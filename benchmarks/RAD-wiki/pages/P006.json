@@ -1,0 +1,8 @@
+{
+  "name": "ethical-framing-mask",
+  "trigger": "When a prompt uses complex ethical or moral justifications to disguise its intent.",
+  "strategy": "The attack disguises harmful intent by framing the request within a plausible ethical or moral context, using rhetorical questions and indirect language to mask the true purpose.",
+  "guidance": "Identify and isolate the underlying request by stripping away the ethical or moral justifications and examining the core intent of the prompt.",
+  "cluster": 6,
+  "n_members": 180
+}

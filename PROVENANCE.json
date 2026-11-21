@@ -1,0 +1,766 @@
+{
+  "paper_id": "IC473",
+  "upstream_rad": "https://github.com/BruceYg/Retrieval-Augmented-Defense",
+  "source_files": [
+    {
+      "file": "src/conformal.py",
+      "source_sha256": "3e667b48176b14be75921fbd395752f253278716a71cf6044aff16e3de7f5e19",
+      "release_sha256": "3e667b48176b14be75921fbd395752f253278716a71cf6044aff16e3de7f5e19",
+      "adapted": true
+    },
+    {
+      "file": "src/jev_client.py",
+      "source_sha256": "e7fb9e9d57577b077dfd5cf521bec322ad73adc6883245d656d21ef166763a7c",
+      "release_sha256": "ffe5ed513ccdd581c72ec0a37f6abeef3973e935ddff0bfd84c835b6a96a15be",
+      "adapted": true
+    },
+    {
+      "file": "src/jev_lint.py",
+      "source_sha256": "47e90fe9829022e07cf5ee6ce679cff2b235944bfab861dc3fdd63443573f27a",
+      "release_sha256": "47e90fe9829022e07cf5ee6ce679cff2b235944bfab861dc3fdd63443573f27a",
+      "adapted": true
+    },
+    {
+      "file": "src/rad_hybrid.py",
+      "source_sha256": "812b5578bf4d5bcc289eca96b01edfee66af359f74b68be1966c792f8260f407",
+      "release_sha256": "812b5578bf4d5bcc289eca96b01edfee66af359f74b68be1966c792f8260f407",
+      "adapted": true
+    },
+    {
+      "file": "src/rad_judge.py",
+      "source_sha256": "5eb8b207cbbf6214b627d3176ff89b839f52a2e25bb71db617db37c55c162094",
+      "release_sha256": "f1c28b7523c9c64d816a2c0d45da077eb1d3fe1f2e8343e2ce93beccda8ffc7b",
+      "adapted": true
+    },
+    {
+      "file": "src/wiki_rad.py",
+      "source_sha256": "dc2649a48f4e6fa904e38e66e0f779ba82f2b8c83f590fced593e8e201276fbb",
+      "release_sha256": "dc2649a48f4e6fa904e38e66e0f779ba82f2b8c83f590fced593e8e201276fbb",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/ablation_no_extraction.py",
+      "source_sha256": "af0e7e5d3703b1ee2d68b653b13c000cb58eded37417c4849e6dc1e7a3bfda99",
+      "release_sha256": "af0e7e5d3703b1ee2d68b653b13c000cb58eded37417c4849e6dc1e7a3bfda99",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/adaptive_attack.py",
+      "source_sha256": "ed002abd3aaba6e75bad84944b63023593cc3a97e213002f933da1fd4fe00c40",
+      "release_sha256": "ed002abd3aaba6e75bad84944b63023593cc3a97e213002f933da1fd4fe00c40",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/build_wiki.py",
+      "source_sha256": "703a01205bdca44acb6ef15e510c121e35c45e0a0e4a1c7bf0faaaff7f19de8d",
+      "release_sha256": "703a01205bdca44acb6ef15e510c121e35c45e0a0e4a1c7bf0faaaff7f19de8d",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/gen_concealed_ext.py",
+      "source_sha256": "9434a78f6e66f3fdcff864b4dd442df05117a1644175249d1015ce1fc2852fd9",
+      "release_sha256": "9434a78f6e66f3fdcff864b4dd442df05117a1644175249d1015ce1fc2852fd9",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/maint_experiment.py",
+      "source_sha256": "493779a3c1323d1c135958f2509c30878c41e11210934970abf9989cd3e5e091",
+      "release_sha256": "493779a3c1323d1c135958f2509c30878c41e11210934970abf9989cd3e5e091",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/maint_extract.py",
+      "source_sha256": "9e4541d04a33b0b03c46e4769ce47d1cd99f9ae53833eec9a4a0e0b7aaed5147",
+      "release_sha256": "601938f6825493876bcc73ae5b691c96531e3de46705fb3492e8c128ff147137",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/qwen38_target3_eval.py",
+      "source_sha256": "bf0771ec4a66509faaab4b0922f3c42ba88e96c28da337ab147c26f1854c3b97",
+      "release_sha256": "bf0771ec4a66509faaab4b0922f3c42ba88e96c28da337ab147c26f1854c3b97",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/run_phase2.py",
+      "source_sha256": "33230a861fbd2347fab8693c61e1db847200878d658bdde9314c08a6cf333d5d",
+      "release_sha256": "404acba1e809038d039be9f5193425d639f03549f4d16351e63a8bc22d1ef8c8",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/run_phase2_ext.py",
+      "source_sha256": "e64db88a3193d2de1bed75cb0dc802c5a1b491473befa99ed700a637f6559d32",
+      "release_sha256": "e64db88a3193d2de1bed75cb0dc802c5a1b491473befa99ed700a637f6559d32",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/server_gpu_window.py",
+      "source_sha256": "710d2536b2789f87cc0301dc834c199b62d94a8c40366f9341ca620ba7e3685a",
+      "release_sha256": "b40aba30fb9942c9a58b16b7bc8194e57919d3af71e6425cdcf70ffdaadd639d",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/server_phase1.py",
+      "source_sha256": "f92d2771233b3e08b7aba2c2b828c386bdd67822815141dcd01ad87f93e8c430",
+      "release_sha256": "c324faf76eb300c5dc71aaacc9d138075a6f319efeae298095ec72870481f424",
+      "adapted": true
+    },
+    {
+      "file": "scripts/runs/target2_eval.py",
+      "source_sha256": "fd3c38309a81d38d3475f6631123d30c41f0df812dffdfb72722a0ed95dc6a6a",
+      "release_sha256": "fd3c38309a81d38d3475f6631123d30c41f0df812dffdfb72722a0ed95dc6a6a",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-code/LICENSE",
+      "source_sha256": "8547d7b4381d0105fe45d3a528b9a1f251915a80834d77d4b45154691f42c91b",
+      "release_sha256": "8547d7b4381d0105fe45d3a528b9a1f251915a80834d77d4b45154691f42c91b",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/README.md",
+      "source_sha256": "601c2243e807138ba0bdbd5fa3faa4d575f6728bb32b4c51bd322a68aa3d0184",
+      "release_sha256": "601c2243e807138ba0bdbd5fa3faa4d575f6728bb32b4c51bd322a68aa3d0184",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/pyproject.toml",
+      "source_sha256": "1cdb0d2c22f77b6fd9e87999d2388bf0fa38a08792e98131f670fe76a3ad6f41",
+      "release_sha256": "1cdb0d2c22f77b6fd9e87999d2388bf0fa38a08792e98131f670fe76a3ad6f41",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/__init__.py",
+      "source_sha256": "08ab1e1de5ea67d3a5c65b4814be110a3f1e26a4ce550077847ac93085da2990",
+      "release_sha256": "08ab1e1de5ea67d3a5c65b4814be110a3f1e26a4ce550077847ac93085da2990",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/annotation.py",
+      "source_sha256": "d16c464bde6a643a5ee515b0666f41be1c95967f83de17a2984cd4abc2f1221e",
+      "release_sha256": "d16c464bde6a643a5ee515b0666f41be1c95967f83de17a2984cd4abc2f1221e",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/artifacts.py",
+      "source_sha256": "e208fa9d77b0b510f5909b5b9a703c3be80230992a2221a3ddfd013a0232f571",
+      "release_sha256": "e208fa9d77b0b510f5909b5b9a703c3be80230992a2221a3ddfd013a0232f571",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/attacks.py",
+      "source_sha256": "0a14068221e2b5d799446c7503883a507a40fc0c349440a43d2c5f674e84b5be",
+      "release_sha256": "0a14068221e2b5d799446c7503883a507a40fc0c349440a43d2c5f674e84b5be",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/cli.py",
+      "source_sha256": "59514165aa0facb8369438aa12b867d2f4c72d27330b112acee841933ec0cf0b",
+      "release_sha256": "59514165aa0facb8369438aa12b867d2f4c72d27330b112acee841933ec0cf0b",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/config.py",
+      "source_sha256": "7834737ff9e253d15205afffe011c89d0056de60c03930bd286607b6b5ba1816",
+      "release_sha256": "7834737ff9e253d15205afffe011c89d0056de60c03930bd286607b6b5ba1816",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/curation.py",
+      "source_sha256": "e9b94fcc78d9701c99208693839eda6294817718c77dd4f3c271307fbff877ef",
+      "release_sha256": "e9b94fcc78d9701c99208693839eda6294817718c77dd4f3c271307fbff877ef",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/data.py",
+      "source_sha256": "fea0a98b01f281acaec6f1bc1aec4e7b5f1a03cbefb79e91aac49085864a41da",
+      "release_sha256": "fea0a98b01f281acaec6f1bc1aec4e7b5f1a03cbefb79e91aac49085864a41da",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/detector.py",
+      "source_sha256": "b1b2f32f1fe1d6dc9fdb66ce2d6bac2067a0d5e0bb3c0b9c40961707bb146c6a",
+      "release_sha256": "b1b2f32f1fe1d6dc9fdb66ce2d6bac2067a0d5e0bb3c0b9c40961707bb146c6a",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/evaluation.py",
+      "source_sha256": "e2de5f497429138a6559bb53c0904a0624c6216be364748ae8fb5cef4a1c1ace",
+      "release_sha256": "e2de5f497429138a6559bb53c0904a0624c6216be364748ae8fb5cef4a1c1ace",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/index.py",
+      "source_sha256": "ec39fea48cb6babe7ee837f32839f3434341fbc18d56e75ae5976a84adb9e18e",
+      "release_sha256": "ec39fea48cb6babe7ee837f32839f3434341fbc18d56e75ae5976a84adb9e18e",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/interfaces.py",
+      "source_sha256": "051d2db137991bb2dc472c8c0d590d5eb86c794978044e525f3c1d1f3f0d0b8f",
+      "release_sha256": "051d2db137991bb2dc472c8c0d590d5eb86c794978044e525f3c1d1f3f0d0b8f",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/models.py",
+      "source_sha256": "8f5d064b6b57c46d354207e3636e8bbe5ae633fddd700ca40109e5aff7212478",
+      "release_sha256": "8f5d064b6b57c46d354207e3636e8bbe5ae633fddd700ca40109e5aff7212478",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/prompts/classify_full.txt",
+      "source_sha256": "56384a48219fcbcd528bd7e365275ef540db5f7f8e79fefcbb2ff73a58e2d432",
+      "release_sha256": "56384a48219fcbcd528bd7e365275ef540db5f7f8e79fefcbb2ff73a58e2d432",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/prompts/classify_intent.txt",
+      "source_sha256": "21aab943a81d1a2d2b95a54a27c32a8020affa29bf0b936cf1ac613bd4bf8f4f",
+      "release_sha256": "21aab943a81d1a2d2b95a54a27c32a8020affa29bf0b936cf1ac613bd4bf8f4f",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/prompts/extract.txt",
+      "source_sha256": "8a0fb64dfaabfe69f5c875f631cb6a6f5f014f12bdf96e47ed6373f1e53813ef",
+      "release_sha256": "8a0fb64dfaabfe69f5c875f631cb6a6f5f014f12bdf96e47ed6373f1e53813ef",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/prompts/refusal_judge.txt",
+      "source_sha256": "ee2e1351c3a210afc19cee1616b320c48bc5c260e46d0020731baf50df6d15b9",
+      "release_sha256": "ee2e1351c3a210afc19cee1616b320c48bc5c260e46d0020731baf50df6d15b9",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/prompts/strongreject_rubric.txt",
+      "source_sha256": "08302524faccaebcc1d07091d1b56ec0c9db8e06c4f4ca3860dcd60b5b88d4f4",
+      "release_sha256": "08302524faccaebcc1d07091d1b56ec0c9db8e06c4f4ca3860dcd60b5b88d4f4",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/prompts/strongreject_system.txt",
+      "source_sha256": "07210905b2ccfee2fe9276fe4d044b0bee1662a73e58f6649864a81dd137622c",
+      "release_sha256": "07210905b2ccfee2fe9276fe4d044b0bee1662a73e58f6649864a81dd137622c",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense/reproduce.py",
+      "source_sha256": "6a2fefac250df5c31b155693d7afcf90a2c333447acb1d3069c645ad29a13d01",
+      "release_sha256": "6a2fefac250df5c31b155693d7afcf90a2c333447acb1d3069c645ad29a13d01",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/PKG-INFO",
+      "source_sha256": "cdec7f9bde0d622d7e7ae7e8038c8620e04f91d4de607f65a89151e86d446fb3",
+      "release_sha256": "cdec7f9bde0d622d7e7ae7e8038c8620e04f91d4de607f65a89151e86d446fb3",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/SOURCES.txt",
+      "source_sha256": "202150f1a986e7cdad9e388661db366cab2df449ae1aaad8d9e56f068f433dc1",
+      "release_sha256": "202150f1a986e7cdad9e388661db366cab2df449ae1aaad8d9e56f068f433dc1",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/dependency_links.txt",
+      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/entry_points.txt",
+      "source_sha256": "bfaee74047efcc7190b96489e1881f36fad99448287552b0ee2a89d944621025",
+      "release_sha256": "bfaee74047efcc7190b96489e1881f36fad99448287552b0ee2a89d944621025",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/requires.txt",
+      "source_sha256": "cce2ca3960f7134d345d7b43c83452c1a74245c1f0d7cc7e3dfc1645c4708be1",
+      "release_sha256": "cce2ca3960f7134d345d7b43c83452c1a74245c1f0d7cc7e3dfc1645c4708be1",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/top_level.txt",
+      "source_sha256": "5cb3931592c31b333cee002f9cd3fa36baab8fd4566210df0f57ea37cc243e6f",
+      "release_sha256": "5cb3931592c31b333cee002f9cd3fa36baab8fd4566210df0f57ea37cc243e6f",
+      "adapted": false
+    },
+    {
+      "file": "results/full/exp_full.csv",
+      "source_sha256": "05cbe401a461c725da198ff091a9b284b6d659bcc0aafc0084721edac2748c34",
+      "release_sha256": "05cbe401a461c725da198ff091a9b284b6d659bcc0aafc0084721edac2748c34",
+      "adapted": false
+    },
+    {
+      "file": "results/ext/benign_ext100_scores.json",
+      "source_sha256": "134bd05e84f1c1342e2ce63ab10c07e7053fcca03bd16291d21a6611a03de906",
+      "release_sha256": "134bd05e84f1c1342e2ce63ab10c07e7053fcca03bd16291d21a6611a03de906",
+      "adapted": false
+    },
+    {
+      "file": "results/ext/exp_ext.csv",
+      "source_sha256": "b6880629bece8e12d87df1713c9692687c25a63adb115493fedd90083c18cb6c",
+      "release_sha256": "b6880629bece8e12d87df1713c9692687c25a63adb115493fedd90083c18cb6c",
+      "adapted": false
+    },
+    {
+      "file": "results/ext/ablation_no_extract.csv",
+      "source_sha256": "98c5f8b3a937ad0610d2d71b65ef866d9eb94c18153470edb4817add6647ca52",
+      "release_sha256": "98c5f8b3a937ad0610d2d71b65ef866d9eb94c18153470edb4817add6647ca52",
+      "adapted": false
+    },
+    {
+      "file": "results/ext/target2_eval.csv",
+      "source_sha256": "567cf671f50dcfef3dca7505967daf4c33cc49df81791d6f70de69439f72590a",
+      "release_sha256": "567cf671f50dcfef3dca7505967daf4c33cc49df81791d6f70de69439f72590a",
+      "adapted": false
+    },
+    {
+      "file": "results/ext/target3_eval.csv",
+      "source_sha256": "468e9b9c4b32ac8da740496320b29e0703461a9d1165fa7dfee9712de401b5ab",
+      "release_sha256": "468e9b9c4b32ac8da740496320b29e0703461a9d1165fa7dfee9712de401b5ab",
+      "adapted": false
+    },
+    {
+      "file": "results/ext/adaptive_final_rad_tj.csv",
+      "source_sha256": "6674f0df1ccbef2e8f340ea056b1c36ad4535949ebac140d59fa8c4700cd3fdf",
+      "release_sha256": "6674f0df1ccbef2e8f340ea056b1c36ad4535949ebac140d59fa8c4700cd3fdf",
+      "adapted": false
+    },
+    {
+      "file": "results/ext/injection_probes.jsonl",
+      "source_sha256": "c8fb1555409f433002d8553d7c70deb68411e130e37545651632e51d8bb56ab6",
+      "release_sha256": "c8fb1555409f433002d8553d7c70deb68411e130e37545651632e51d8bb56ab6",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-wiki/page_emb.npy",
+      "source_sha256": "a66fc18a51414be2fd0219be7134e6178f249ef21322244e7b9366964a4056b5",
+      "release_sha256": "a66fc18a51414be2fd0219be7134e6178f249ef21322244e7b9366964a4056b5",
+      "adapted": false
+    },
+    {
+      "file": "results/exp2_pilot.csv",
+      "source_sha256": "12d6d01bb6f97fa78fb4e67d8bef021299f909925ae079bf85f653688ed5de44",
+      "release_sha256": "12d6d01bb6f97fa78fb4e67d8bef021299f909925ae079bf85f653688ed5de44",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P000.json",
+      "source_sha256": "5b460944fd31dc473618da7d735f775c91a8d95b9380a9ca9db2461b2afd31de",
+      "release_sha256": "4bf40b4fe68e7c4a35acda7782935f5826428ec8056e236f686917cf9b200bd1",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P001.json",
+      "source_sha256": "5f553115b6c62294c7be6c1e4dd1ee3d4e891e00c0a412bf7430928830940f92",
+      "release_sha256": "3516e602daadf95e7642242ca1fd6f2c2a944a125f32bb35e76cafa19542d26d",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P002.json",
+      "source_sha256": "73fba0b29f87af6d964e74d8c780c7614d3877d276d3ad254003aebd71b5e44f",
+      "release_sha256": "ca6397099b895c03ae7ae59fc70d4f52c3c381a771228f0c16e859dd04689cc0",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P003.json",
+      "source_sha256": "d2479ea651ca0b82ccfd7a65361e58058dedcb1adb3ab8416a17b6d75f85d688",
+      "release_sha256": "93f677ee8cebd9ff98bea8885422103f5e275b870765130ec1d17378c7e8b8cb",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P004.json",
+      "source_sha256": "e21837fa96eab3218a6b3e2d06883e9daf11d32e6a4db33fed686cf51f09b084",
+      "release_sha256": "0893d014cae6a11c51a129c87edafa8cd844ea91e6204921a6ad5e7a1cb8ec8b",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P005.json",
+      "source_sha256": "7e093970fe8f8501532a02a937f35b8026571403f27a9bc991a076b110d16e8d",
+      "release_sha256": "e87157c8f29dcd365131137b3e1b0bbe51d54d571969b8d75f61124d9ed89e63",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P006.json",
+      "source_sha256": "b23b451bcc26cc4ffe2da6657decbd5d623a753b19cfba0b20eef7634efca43e",
+      "release_sha256": "20332f547df43bbaeb23a8b864bb4d5b1b10fdc4c7837ad97d50241d59a817c9",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P007.json",
+      "source_sha256": "aa4943f29797f77e28ea68d98971a82b3bcf1432d94e345f8d2433cfab7573ff",
+      "release_sha256": "fd12106a447999ba9062e7748072d49138e7f07b1e836bea1f2a324cfd403733",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P008.json",
+      "source_sha256": "1ec80a701cde2aa245c9396155bd0c50ed300bfe59a7e33c345a1a64924210cb",
+      "release_sha256": "ec73642c893ae314f684c1d1c05ae9ae7804c84b3e763a9f89bff3d71d0cf75d",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P009.json",
+      "source_sha256": "05ee25041533ea4364f0bd8d68b80c61962e241d9ecc3656d0a193a0c4a9307a",
+      "release_sha256": "35aee77087ea7c361d55bb41487e0eeec5313d03d2f751c650756a9585043c47",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P010.json",
+      "source_sha256": "5310187d7f9d8fb376ad48b72510095e1eff55b1fb550a14443304dcab61859f",
+      "release_sha256": "af109dd9aab84705693dcf7c4819699d6aff6e3163d67f18866323b0b8c73818",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P011.json",
+      "source_sha256": "dac0599312f9afac2a8b463592e3c8cc190087e95f062299a1a66f799030ca7f",
+      "release_sha256": "2f2cd6bec2bb4c6d69fbcd3f1ee57fbd69f2375308feb77299ec72bf09438963",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P012.json",
+      "source_sha256": "ae1e9e9e68175d02d8a0ff1ac9adee935828f4e81107f70a90fd0c2296be6b9b",
+      "release_sha256": "ab654d54617883cda11c6a9c23a92b6ef0c3cbf5f0306e8f0261908cfcf0f5c0",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P013.json",
+      "source_sha256": "6b061500434e4317e9cdf46cd519ad0def240813a349154b7d7cd12ff757f79e",
+      "release_sha256": "5f0d7270b7b166c25a55f2d6fc4aca2f350f4c7ed4c88cc44bb183b631a89b8d",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P014.json",
+      "source_sha256": "483303b70006dea76112b830c43a138a0dd351b85dbe98efb61da529efb7bc19",
+      "release_sha256": "0054999a36c711f4a0388054544977a8e723d56617d5d5e46f0aa138b816efee",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P015.json",
+      "source_sha256": "83bd9104fc8bb621c587e8c94fc0b4f7bf8fbfcd395547b36a900c6a46b9bbd4",
+      "release_sha256": "378edf61168a6750be07f21dc4a1eb8620d4be85d94090974c777fa1041eb415",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P016.json",
+      "source_sha256": "df355f7756501b0506fd6f72be3aa825fc24c38365bf51d5e998559c3d28d331",
+      "release_sha256": "d4c116067da664f732f2b55f89317a97779cac0595227fa6c57ee1052caa6035",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P017.json",
+      "source_sha256": "e6a642542519b82661492c414c0063ecf515279a4f84700a8e59126750475988",
+      "release_sha256": "80c3e958f12f4077272e491595c895b375ce7a29a12ba2868dd9dbd4355ade3b",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P018.json",
+      "source_sha256": "820ee98cccdd6c6fd9484298dc06f00974a98803c78482e756ad354c8436e394",
+      "release_sha256": "e0fe5564b858b9105796f4b5f5354d9f6c012bcdd9a44913e3b093673787f044",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P019.json",
+      "source_sha256": "a6c6cfbd8a01cf113969a2789f5f6952069535e7afbabea6e6c8a1521fe4188c",
+      "release_sha256": "7179c47f5323eece4899fee797448473ee0bf26839671ee403134838c254474f",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P020.json",
+      "source_sha256": "b3d98d2d7058b5fd6a0564d123bc831737122ecd02322628bd1496385273b459",
+      "release_sha256": "037bfa9eaf70066941aa75eefe3e6b802ec621c91737b17a19a02e414d050686",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P021.json",
+      "source_sha256": "456ddd8ea2fff0f7285ba0b685e1c93e0a2e0c2f31dbad091a63d4b4df27d988",
+      "release_sha256": "8e9325fbd7a0988c1e66f5ffe130a67ee9eb197a51b05b50c2983bae39cc3257",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P022.json",
+      "source_sha256": "bd7b9eec8941ec27b84f7e55989e59ce0bb8341f59bd01266e8c497d68fed3a6",
+      "release_sha256": "687f8db5a5f1fb25f9319a47ab8b1eb9a6e10ef807d8f38b260bd20489b53392",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P023.json",
+      "source_sha256": "6e0405af801278b5e45f50c01501d7d63ae034dc8fa4225d424f8cc6286c4493",
+      "release_sha256": "1fec2ea3bbce9822305d0e3bd8e56047c014d746a944866e6759d055b19d7d77",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P024.json",
+      "source_sha256": "2d13fc26b68f88c14615f9cbcd4ca23cfa85be65adbee08f50a4593f71bc8eb7",
+      "release_sha256": "6e4f189d0087b87aca06752fb13d140375483405dbe5bde2375c058c980eb529",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P025.json",
+      "source_sha256": "aaec9034a275f0eacfb52eb5fc083377a673ab80039b5a0b39eb4b44e0cd8d78",
+      "release_sha256": "d7e09f4480db2de0c8a4b94201231a56af708c9170c55fe468e1999122a054a8",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P026.json",
+      "source_sha256": "6488c5f8b85cdceb6cb602693bb0f25ac8e3182b3dd3c7a3bc80ce2cfd705c94",
+      "release_sha256": "8a603694e4dc70e3cd7aceea1b761ee4a29dcc1e1ed989a5ace0d1390a6c895d",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P027.json",
+      "source_sha256": "d3a6bff8d95ef78feddf205b185b6de3d21579b8601eb2d1c8a3084a4643eb0c",
+      "release_sha256": "dd5b4e71708bc23e361508c13412d9d4e40abcc5717114aadfe3ce7fdd5b2dd2",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P028.json",
+      "source_sha256": "b0aed77d45fa9277b3d107dd182ea8dbc45763f0d43fb47338b1c8443478d6ff",
+      "release_sha256": "f2c600652a074bf4c3b1f07a4a599ab3842130599dc41f4308df04c98de1c27a",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P029.json",
+      "source_sha256": "8424d4dba126e75defb04bc6e13216412226ae564da3377a1faa25624d57f6fa",
+      "release_sha256": "07d9443f4c2c36f23064d1ae6f81c7da8bfbbee35cca89e628ebab2554446bbc",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P030.json",
+      "source_sha256": "68ff79dd576222bf09fdebf4d00b447777c4a1d123f9c8f3ed615067e59a0a88",
+      "release_sha256": "e9ae309ad107a76857ba4ebde765f72baa195570057ea5b07f7a72ff2508f707",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P031.json",
+      "source_sha256": "6aca64e71e418d0614b082c6023babc6503d150c78d86d8a2997233e0d6e879f",
+      "release_sha256": "0931befc84cdf6d95cc7b71a5982d9bbd3f71d647de6fc5a17fda6e56b59dc00",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P032.json",
+      "source_sha256": "d4f68cc954d52daa6e02f0421732bb64b11eb2564f6bf5af005d24b4b43a9779",
+      "release_sha256": "c7df0b043743633f354305effb7a5a1cde2c3f052708d94b51c079e159bd5b6d",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P033.json",
+      "source_sha256": "07b9f6f1dd365fe8b57e0d873ee680135d5d2e4c14753ec43ee259603bb33574",
+      "release_sha256": "692a4ad0501585e7d6227ed603f95c56157991f3b152c15f34e1368356674ed8",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P034.json",
+      "source_sha256": "76cedd7848e2879c7c67668177d96ebf5e36e75cd08420e99cd69a5063675b14",
+      "release_sha256": "dc7c2a386f60efef4a69344df4403ca5e9edc4946496087fc4af00318163e29a",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P035.json",
+      "source_sha256": "062197a7f2b229985bcd90664a71b147efe41643b74149ec9702ba0130decd70",
+      "release_sha256": "51ee0c4a641392305a70ed686e4925fe92b95f20485e064b496c80819fa641ff",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P036.json",
+      "source_sha256": "04638d5d797ec45fb05045cde7f04b662f7096870d13a385b276551cdbd47735",
+      "release_sha256": "350470373cfbb2db97da0e65ba48119546883f2549d81ba9ba51f816b5fe5852",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P037.json",
+      "source_sha256": "db7b1f7e132f7a53e4b4c4007fa0e3d93b56d4704bf790a8d39d1981e55500b3",
+      "release_sha256": "7d6756ef9ea77cf3f035f3bb6632c1dcefdbc33ca51b0dc9d16c45663466e70f",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P038.json",
+      "source_sha256": "fdedaba250a868c370d017c2102d8f1c1422bfedca5e5a1b9820635d27f88f29",
+      "release_sha256": "51d0fb8f2b9baf167359e9e08b18922ba2ae362505db1a6286016d26f0d86718",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P039.json",
+      "source_sha256": "5c0659243d385284ee49fadf0fe5e48e2f8f0de670d4d7ab2387a3ffe608d2d9",
+      "release_sha256": "35545f731577d5c20d9056bf8b0ff6271712d84fbb9f10c957d6cda7b1df4a37",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P040.json",
+      "source_sha256": "f81d67bc050243156272ec1d2e97e32962c30ad961be1da40c6b163dee36aa26",
+      "release_sha256": "ef64e671fc3c112223d153d96e9abf9f48583a456fa5945848f76acbeb292f9b",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P041.json",
+      "source_sha256": "0ee36fa16b0241112f2654f7cebcfb8def451f093027f3811655ab0f9c7e7573",
+      "release_sha256": "7dd0abf1d47356ca63227eead7ed3e549c90aad5d99ce2a5092d6d02bb1279c0",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P042.json",
+      "source_sha256": "46292fb0392d494a62286a55a0e87f134c64849d68b04721524b01d0a29a9c86",
+      "release_sha256": "f5e287f8892b72c897e70712760cdd020f66bf830aa5d75392577e85db0e7562",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P043.json",
+      "source_sha256": "e5439f607bcd0b4c624261b619a0905296338adae5fb83c8f8c56b33c4a7c016",
+      "release_sha256": "76ee8bffc37bdf2a3ecc1fe6b11fb8c4d5b7703c72d37b04c96233a7d6ade9ca",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P044.json",
+      "source_sha256": "1a288e8ad9583ab04c3890fc18de201fffc811200775227026813bddadb659d9",
+      "release_sha256": "fb31f699c868844ccc2b74e72dd6322f16d38532d35ab647d45acdca9261e8d9",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P045.json",
+      "source_sha256": "50d7e709008323cdd184d17ebe0e441959a517d95bcc57147db0bd9cbb6fa178",
+      "release_sha256": "13cceb9add0460a7198fc93701eebdcc654ddb2f3f6f957da1c223b498ba9174",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P046.json",
+      "source_sha256": "01da068291c94f845128bbfad14b59c4c25ff46358c18067e88ca6ef423baba9",
+      "release_sha256": "6076ad94eda0af5bcaff0e79ddbfd916a40ea1feff15801e194f06c5d6e0ad30",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P047.json",
+      "source_sha256": "61d35b1b6ae3006fac2bcd9cb52b76374133284d1672b9bf6aab0c46c2943d9b",
+      "release_sha256": "9886c6de87e9e8c8a5ccbee2ee7f3af54ea389fa4482ba1d8667ec90bc3009c0",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P048.json",
+      "source_sha256": "9de4512f0310b8bc8db28ce6b06c4593185522370ee8db255e0afb209f510621",
+      "release_sha256": "682c70fa48bc9edd5c92bcf1022acd2f1d282ff146c8e4d5b71affd375e1e666",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P049.json",
+      "source_sha256": "c7797c1d0dc7d3287206e18f7cc44ffd28fc6d28a3954bbf268f8204a23beae2",
+      "release_sha256": "0c6b905ac5ff8500a03a1ea97ee5a75a5ee0c9f1fb4ecf2a1e7367679ae95a98",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P050.json",
+      "source_sha256": "577e10c02de267abe44f171dc8058c089d958a5e7f867b58968d8cba4397505c",
+      "release_sha256": "a70399f4385427ceda5961e564e89803a6addba52d6bf6aad3617ad1c8322ab4",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P051.json",
+      "source_sha256": "6296e2dfe6aef2defd03bee1b4023b09b2c472cf9dc7055ccf75e734cc95b2d1",
+      "release_sha256": "f73606b155fa97ecb813e39eef196b8eebd2c1b2a428e59b75270872ee8e2258",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P052.json",
+      "source_sha256": "5abf7233f61393e8d72a2b211b2886bfb6e6d7e3a93a06c6afd9dd967d0b31e3",
+      "release_sha256": "d20760ab36a3025ce7c0edb7c185641b3d050067426709794061db3e6f2ac077",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P053.json",
+      "source_sha256": "492ce9fac23f73bb61b919b4e7934392d7b01bb84d514ec00c46fc11230ff677",
+      "release_sha256": "546ebdcfeb6eae1fbc07f13aa4d4aeceb7660e67873d67a44dcecdaeae40e56f",
+      "adapted": true
+    },
+    {
+      "file": "benchmarks/RAD-wiki/pages/P054.json",
+      "source_sha256": "af5ca639f4f7e61dc2b442989016b46b2580bc23cef3be978c15bc4ecbd19aa2",
+      "release_sha256": "bbd244708e887af572d0b9fe4e41de235e8e7475206b0bfcf073178500bfd75f",
+      "adapted": true
+    },
+    {
+      "file": "results/m14_lint_decisions.json",
+      "source_sha256": "d647da50115def3469565cccc679c6cf90ec67a12f17983c5eae897b0199db4a",
+      "release_sha256": "d647da50115def3469565cccc679c6cf90ec67a12f17983c5eae897b0199db4a",
+      "adapted": false
+    },
+    {
+      "file": "benchmarks/RAD-wiki/meta.json",
+      "source_sha256": "d420ac153078010cbc3b5d766c72fa11f95d5f049c484f96ee25f3c51aafc89e",
+      "release_sha256": "d420ac153078010cbc3b5d766c72fa11f95d5f049c484f96ee25f3c51aafc89e",
+      "adapted": false
+    }
+  ],
+  "numeric_archive_source_sha256": {
+    "results/full/exp_full.csv": "05cbe401a461c725da198ff091a9b284b6d659bcc0aafc0084721edac2748c34",
+    "results/ext/benign_ext100_scores.json": "134bd05e84f1c1342e2ce63ab10c07e7053fcca03bd16291d21a6611a03de906",
+    "results/ext/exp_ext.csv": "b6880629bece8e12d87df1713c9692687c25a63adb115493fedd90083c18cb6c",
+    "results/ext/ablation_no_extract.csv": "98c5f8b3a937ad0610d2d71b65ef866d9eb94c18153470edb4817add6647ca52",
+    "results/ext/target2_eval.csv": "567cf671f50dcfef3dca7505967daf4c33cc49df81791d6f70de69439f72590a",
+    "results/ext/target3_eval.csv": "468e9b9c4b32ac8da740496320b29e0703461a9d1165fa7dfee9712de401b5ab",
+    "results/ext/adaptive_verdicts_r1.jsonl": "71789d2f4ac61948f00b6c3587d65aecd91a3a73604dc7f9dcac89a2d21c39aa",
+    "benchmarks/adaptive/adaptive_r1.csv": "022996432e5815a582e41826a036d9d7c3f06a16a14400483beea5928d3b5b26",
+    "results/ext/adaptive_verdicts_r2.jsonl": "7185d5ae039bdf020272dd9a41ec9270e8f9bcb086eda272dc0416ddcc7a3a58",
+    "benchmarks/adaptive/adaptive_r2.csv": "cc4de122c488e380ab3a50a4586e97a435e973c4e085b8e65e12133e3036d21c",
+    "results/ext/adaptive_verdicts_r3.jsonl": "c09f4f7e4994ac373235ea1d8b9e692491af3852ce758cdcb82cd03c85e0b35e",
+    "benchmarks/adaptive/adaptive_r3.csv": "4b3f1616ec6be196658759ca19f0dcce70ab3aecd0102c36a30db46dcaf20502",
+    "results/ext/adaptive_final_rad_tj.csv": "6674f0df1ccbef2e8f340ea056b1c36ad4535949ebac140d59fa8c4700cd3fdf",
+    "results/ext/maint_verdicts_v2.json": "2f79d7cdffcaee20138c73f05dc3d477655b1424f9de3b87bc7e2df895013c8b",
+    "results/ext/injection_probes.jsonl": "c8fb1555409f433002d8553d7c70deb68411e130e37545651632e51d8bb56ab6",
+    "results/m13_nav_eval.json": "f39409fdbdddb899824507dfb43a7916fce2b11009d21838003c438cbde3361c",
+    "benchmarks/RAD-wiki/page_emb.npy": "a66fc18a51414be2fd0219be7134e6178f249ef21322244e7b9366964a4056b5",
+    "results/exp2_pilot.csv": "12d6d01bb6f97fa78fb4e67d8bef021299f909925ae079bf85f653688ed5de44",
+    "benchmarks/RAD-wiki/pages/P000.json": "5b460944fd31dc473618da7d735f775c91a8d95b9380a9ca9db2461b2afd31de",
+    "benchmarks/RAD-wiki/pages/P001.json": "5f553115b6c62294c7be6c1e4dd1ee3d4e891e00c0a412bf7430928830940f92",
+    "benchmarks/RAD-wiki/pages/P002.json": "73fba0b29f87af6d964e74d8c780c7614d3877d276d3ad254003aebd71b5e44f",
+    "benchmarks/RAD-wiki/pages/P003.json": "d2479ea651ca0b82ccfd7a65361e58058dedcb1adb3ab8416a17b6d75f85d688",
+    "benchmarks/RAD-wiki/pages/P004.json": "e21837fa96eab3218a6b3e2d06883e9daf11d32e6a4db33fed686cf51f09b084",
+    "benchmarks/RAD-wiki/pages/P005.json": "7e093970fe8f8501532a02a937f35b8026571403f27a9bc991a076b110d16e8d",
+    "benchmarks/RAD-wiki/pages/P006.json": "b23b451bcc26cc4ffe2da6657decbd5d623a753b19cfba0b20eef7634efca43e",
+    "benchmarks/RAD-wiki/pages/P007.json": "aa4943f29797f77e28ea68d98971a82b3bcf1432d94e345f8d2433cfab7573ff",
+    "benchmarks/RAD-wiki/pages/P008.json": "1ec80a701cde2aa245c9396155bd0c50ed300bfe59a7e33c345a1a64924210cb",
+    "benchmarks/RAD-wiki/pages/P009.json": "05ee25041533ea4364f0bd8d68b80c61962e241d9ecc3656d0a193a0c4a9307a",
+    "benchmarks/RAD-wiki/pages/P010.json": "5310187d7f9d8fb376ad48b72510095e1eff55b1fb550a14443304dcab61859f",
+    "benchmarks/RAD-wiki/pages/P011.json": "dac0599312f9afac2a8b463592e3c8cc190087e95f062299a1a66f799030ca7f",
+    "benchmarks/RAD-wiki/pages/P012.json": "ae1e9e9e68175d02d8a0ff1ac9adee935828f4e81107f70a90fd0c2296be6b9b",
+    "benchmarks/RAD-wiki/pages/P013.json": "6b061500434e4317e9cdf46cd519ad0def240813a349154b7d7cd12ff757f79e",
+    "benchmarks/RAD-wiki/pages/P014.json": "483303b70006dea76112b830c43a138a0dd351b85dbe98efb61da529efb7bc19",
+    "benchmarks/RAD-wiki/pages/P015.json": "83bd9104fc8bb621c587e8c94fc0b4f7bf8fbfcd395547b36a900c6a46b9bbd4",
+    "benchmarks/RAD-wiki/pages/P016.json": "df355f7756501b0506fd6f72be3aa825fc24c38365bf51d5e998559c3d28d331",
+    "benchmarks/RAD-wiki/pages/P017.json": "e6a642542519b82661492c414c0063ecf515279a4f84700a8e59126750475988",
+    "benchmarks/RAD-wiki/pages/P018.json": "820ee98cccdd6c6fd9484298dc06f00974a98803c78482e756ad354c8436e394",
+    "benchmarks/RAD-wiki/pages/P019.json": "a6c6cfbd8a01cf113969a2789f5f6952069535e7afbabea6e6c8a1521fe4188c",
+    "benchmarks/RAD-wiki/pages/P020.json": "b3d98d2d7058b5fd6a0564d123bc831737122ecd02322628bd1496385273b459",
+    "benchmarks/RAD-wiki/pages/P021.json": "456ddd8ea2fff0f7285ba0b685e1c93e0a2e0c2f31dbad091a63d4b4df27d988",
+    "benchmarks/RAD-wiki/pages/P022.json": "bd7b9eec8941ec27b84f7e55989e59ce0bb8341f59bd01266e8c497d68fed3a6",
+    "benchmarks/RAD-wiki/pages/P023.json": "6e0405af801278b5e45f50c01501d7d63ae034dc8fa4225d424f8cc6286c4493",
+    "benchmarks/RAD-wiki/pages/P024.json": "2d13fc26b68f88c14615f9cbcd4ca23cfa85be65adbee08f50a4593f71bc8eb7",
+    "benchmarks/RAD-wiki/pages/P025.json": "aaec9034a275f0eacfb52eb5fc083377a673ab80039b5a0b39eb4b44e0cd8d78",
+    "benchmarks/RAD-wiki/pages/P026.json": "6488c5f8b85cdceb6cb602693bb0f25ac8e3182b3dd3c7a3bc80ce2cfd705c94",
+    "benchmarks/RAD-wiki/pages/P027.json": "d3a6bff8d95ef78feddf205b185b6de3d21579b8601eb2d1c8a3084a4643eb0c",
+    "benchmarks/RAD-wiki/pages/P028.json": "b0aed77d45fa9277b3d107dd182ea8dbc45763f0d43fb47338b1c8443478d6ff",
+    "benchmarks/RAD-wiki/pages/P029.json": "8424d4dba126e75defb04bc6e13216412226ae564da3377a1faa25624d57f6fa",
+    "benchmarks/RAD-wiki/pages/P030.json": "68ff79dd576222bf09fdebf4d00b447777c4a1d123f9c8f3ed615067e59a0a88",
+    "benchmarks/RAD-wiki/pages/P031.json": "6aca64e71e418d0614b082c6023babc6503d150c78d86d8a2997233e0d6e879f",
+    "benchmarks/RAD-wiki/pages/P032.json": "d4f68cc954d52daa6e02f0421732bb64b11eb2564f6bf5af005d24b4b43a9779",
+    "benchmarks/RAD-wiki/pages/P033.json": "07b9f6f1dd365fe8b57e0d873ee680135d5d2e4c14753ec43ee259603bb33574",
+    "benchmarks/RAD-wiki/pages/P034.json": "76cedd7848e2879c7c67668177d96ebf5e36e75cd08420e99cd69a5063675b14",
+    "benchmarks/RAD-wiki/pages/P035.json": "062197a7f2b229985bcd90664a71b147efe41643b74149ec9702ba0130decd70",
+    "benchmarks/RAD-wiki/pages/P036.json": "04638d5d797ec45fb05045cde7f04b662f7096870d13a385b276551cdbd47735",
+    "benchmarks/RAD-wiki/pages/P037.json": "db7b1f7e132f7a53e4b4c4007fa0e3d93b56d4704bf790a8d39d1981e55500b3",
+    "benchmarks/RAD-wiki/pages/P038.json": "fdedaba250a868c370d017c2102d8f1c1422bfedca5e5a1b9820635d27f88f29",
+    "benchmarks/RAD-wiki/pages/P039.json": "5c0659243d385284ee49fadf0fe5e48e2f8f0de670d4d7ab2387a3ffe608d2d9",
+    "benchmarks/RAD-wiki/pages/P040.json": "f81d67bc050243156272ec1d2e97e32962c30ad961be1da40c6b163dee36aa26",
+    "benchmarks/RAD-wiki/pages/P041.json": "0ee36fa16b0241112f2654f7cebcfb8def451f093027f3811655ab0f9c7e7573",
+    "benchmarks/RAD-wiki/pages/P042.json": "46292fb0392d494a62286a55a0e87f134c64849d68b04721524b01d0a29a9c86",
+    "benchmarks/RAD-wiki/pages/P043.json": "e5439f607bcd0b4c624261b619a0905296338adae5fb83c8f8c56b33c4a7c016",
+    "benchmarks/RAD-wiki/pages/P044.json": "1a288e8ad9583ab04c3890fc18de201fffc811200775227026813bddadb659d9",
+    "benchmarks/RAD-wiki/pages/P045.json": "50d7e709008323cdd184d17ebe0e441959a517d95bcc57147db0bd9cbb6fa178",
+    "benchmarks/RAD-wiki/pages/P046.json": "01da068291c94f845128bbfad14b59c4c25ff46358c18067e88ca6ef423baba9",
+    "benchmarks/RAD-wiki/pages/P047.json": "61d35b1b6ae3006fac2bcd9cb52b76374133284d1672b9bf6aab0c46c2943d9b",
+    "benchmarks/RAD-wiki/pages/P048.json": "9de4512f0310b8bc8db28ce6b06c4593185522370ee8db255e0afb209f510621",
+    "benchmarks/RAD-wiki/pages/P049.json": "c7797c1d0dc7d3287206e18f7cc44ffd28fc6d28a3954bbf268f8204a23beae2",
+    "benchmarks/RAD-wiki/pages/P050.json": "577e10c02de267abe44f171dc8058c089d958a5e7f867b58968d8cba4397505c",
+    "benchmarks/RAD-wiki/pages/P051.json": "6296e2dfe6aef2defd03bee1b4023b09b2c472cf9dc7055ccf75e734cc95b2d1",
+    "benchmarks/RAD-wiki/pages/P052.json": "5abf7233f61393e8d72a2b211b2886bfb6e6d7e3a93a06c6afd9dd967d0b31e3",
+    "benchmarks/RAD-wiki/pages/P053.json": "492ce9fac23f73bb61b919b4e7934392d7b01bb84d514ec00c46fc11230ff677",
+    "benchmarks/RAD-wiki/pages/P054.json": "af5ca639f4f7e61dc2b442989016b46b2580bc23cef3be978c15bc4ecbd19aa2",
+    "results/m14_lint_decisions.json": "d647da50115def3469565cccc679c6cf90ec67a12f17983c5eae897b0199db4a"
+  }
+}

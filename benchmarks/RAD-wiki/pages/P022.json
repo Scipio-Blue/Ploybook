@@ -1,0 +1,8 @@
+{
+  "name": "academic-mask-attack",
+  "trigger": "when the prompt uses academic language, affiliation with a reputable institution, or a socially beneficial pretext to disguise harmful intent",
+  "strategy": "This attack strategy disguises harmful intent by framing requests within academic, futuristic, or socially beneficial contexts, making them appear as legitimate inquiries or technological advancements.",
+  "guidance": "Identify and challenge the underlying harmful intent by questioning the true purpose behind the academic or technological inquiry, and verify the legitimacy of the purported affiliation or context.",
+  "cluster": 22,
+  "n_members": 99
+}

@@ -1,0 +1,8 @@
+{
+  "name": "positive-framing-attack",
+  "trigger": "when the prompt uses sophisticated technical terms and positive outcomes to justify actions",
+  "strategy": "The attack disguises unethical practices by using technical jargon and positive framing, appealing to authority and innovation to justify harmful intents.",
+  "guidance": "Identify and challenge the underlying ethical implications of the proposed actions, and question the necessity of using sensitive data for the stated purposes.",
+  "cluster": 4,
+  "n_members": 123
+}

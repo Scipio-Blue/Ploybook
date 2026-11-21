@@ -1,0 +1,8 @@
+{
+  "name": "statistical-evidence-disguise",
+  "trigger": "when the prompt cites authoritative sources or statistical evidence to back its request",
+  "strategy": "The attack disguises harmful intent by framing the request as a legitimate academic inquiry or research, using credible sources and statistical evidence to create a veneer of legitimacy and urgency.",
+  "guidance": "Identify and question the underlying intent by stripping away the cited evidence and authoritative sources to uncover the true purpose of the request.",
+  "cluster": 42,
+  "n_members": 206
+}

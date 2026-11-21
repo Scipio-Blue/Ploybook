@@ -1,0 +1,8 @@
+{
+  "name": "technical-instruction-mask",
+  "trigger": "when a prompt requests information in a technical or formatting instruction format but includes a neutral request for information",
+  "strategy": "The attack disguises harmful intent by using technical instructions and neutral format requests to divert attention from the unethical or illegal content it seeks to elicit.",
+  "guidance": "Identify and separate the technical formatting instructions from the underlying request for harmful information, then evaluate the ethical and legal implications of the content being requested.",
+  "cluster": 10,
+  "n_members": 276
+}
