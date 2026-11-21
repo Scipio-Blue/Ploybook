@@ -26,11 +26,6 @@ dependencies = [
 
 [project.optional-dependencies]
 cpu = ["faiss-cpu==1.8.0.post1"]
-eval = ["openai>=1.54,<2"]
-test = ["pytest>=8.0,<9"]
-
-[project.scripts]
-rad = "rad_defense.cli:main"
 
 [project.urls]
 Paper = "https://aclanthology.org/2026.acl-long.1895/"

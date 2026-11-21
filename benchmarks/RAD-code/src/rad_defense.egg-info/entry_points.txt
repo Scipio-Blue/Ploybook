@@ -1,2 +1,0 @@
-[console_scripts]
-rad = rad_defense.cli:main

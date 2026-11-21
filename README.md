@@ -54,40 +54,30 @@ strategy page, core score, severity score, final score and block verdict.
 
 ## Evaluation implementation and provenance
 
-- `scripts/runs/server_phase1.py`: original GPU-side navigation and extraction,
-  plus the RAD-Sim baseline.
-- `scripts/runs/run_phase2.py`: primary four-arm evaluation and the **binary
-  severity** aggregation rule used for all reported primary results.
-- `scripts/runs/server_gpu_window.py` and `run_phase2_ext.py`: concealed extension.
-- `ablation_no_extraction.py`, `adaptive_attack.py`, `maint_experiment.py`,
-  `target2_eval.py`, and `qwen38_target3_eval.py`: corresponding extension studies.
-- `src/jev_client.py`: typed question wording and hosted client. The
-  `run_phase2.aggregate` function implements the paper's binary-severity rule.
+The primary evaluation uses two drivers. `scripts/runs/server_phase1.py`
+runs navigation, intent extraction and the RAD-Sim baseline on fixed inputs.
+`scripts/runs/run_phase2.py` evaluates the four arms and aggregates the binary
+severity judgments with the policy in the paper. The typed questions and
+hosted client are in `src/jev_client.py`. The release also includes the catalog
+consistency checks in `src/jev_lint.py`.
 
-The archived experiment drivers retain their original append/resume behavior.
-Run new experiments in a copy and direct outputs to separate files. They need
-the attack-input CSVs and precomputed extractions indicated by their paths,
-plus user-supplied `JEV_KEY`/`OR_KEY`. New hosted runs incur provider charges.
-Saved score archives verify the reported results; they are not a substitute
-for obtaining the original benchmark inputs for a fresh full evaluation.
+The 55 catalog entries contain the runtime descriptions, counts and cluster
+identifiers used by the defense. The embedding matrix is the one used in the
+paper. Numeric records for the primary and extension studies are sufficient
+for the two offline reproduction commands above.
 
-The released catalog includes all 55 pages' runtime fields (name, trigger,
-strategy, guidance), original counts and cluster IDs, and the exact page
-embeddings. Source-example cues and membership lists are omitted. The gated
-RAD attack database and model weights are not redistributed. Obtain the RAD
-database with its authors' access approval:
+For a fresh primary run, obtain the benchmark inputs through the data
+owners, supply the paths expected by the two drivers, and use a separate
+working copy for their outputs. The drivers retain their original resume
+behavior. Hosted model calls require user-supplied credentials and may incur
+charges. The RAD benchmark is distributed separately by its authors:
 https://huggingface.co/datasets/BruceYg/RAD-Database
 
-The RAD baseline implementation and StrongREJECT rubric templates in
-`benchmarks/RAD-code` retain their upstream MIT license and attribution:
-https://github.com/BruceYg/Retrieval-Augmented-Defense
-
-`PROVENANCE.json` records source and release hashes. Deployment-location
-constants were made relative to this checkout. The GPU preparation driver defaults
-to all inputs and writes to `results/full`, matching its phase-2 consumer. Unused
-exploratory inference paths were omitted. Offline guards were added to
-the hosted clients. The public archive contains numeric evaluation records,
-not target-generated harmful answers, account credentials or private materials.
+The RAD-Sim detector, retrieval and model components and rubric templates
+are included under their upstream MIT license in `benchmarks/RAD-code`.
+`PROVENANCE.json` records source and release hashes. The primary preparation
+driver reads all fixed inputs by default and writes to `results/full`, the
+directory used by the scoring driver.
 
 ## Decision policy
 

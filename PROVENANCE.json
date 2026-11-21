@@ -12,7 +12,7 @@
       "file": "src/jev_lint.py",
       "source_sha256": "47e90fe9829022e07cf5ee6ce679cff2b235944bfab861dc3fdd63443573f27a",
       "release_sha256": "47e90fe9829022e07cf5ee6ce679cff2b235944bfab861dc3fdd63443573f27a",
-      "adapted": true
+      "adapted": false
     },
     {
       "file": "src/rad_hybrid.py",
@@ -27,75 +27,15 @@
       "adapted": true
     },
     {
-      "file": "scripts/runs/ablation_no_extraction.py",
-      "source_sha256": "af0e7e5d3703b1ee2d68b653b13c000cb58eded37417c4849e6dc1e7a3bfda99",
-      "release_sha256": "af0e7e5d3703b1ee2d68b653b13c000cb58eded37417c4849e6dc1e7a3bfda99",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/adaptive_attack.py",
-      "source_sha256": "ed002abd3aaba6e75bad84944b63023593cc3a97e213002f933da1fd4fe00c40",
-      "release_sha256": "ed002abd3aaba6e75bad84944b63023593cc3a97e213002f933da1fd4fe00c40",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/build_wiki.py",
-      "source_sha256": "703a01205bdca44acb6ef15e510c121e35c45e0a0e4a1c7bf0faaaff7f19de8d",
-      "release_sha256": "703a01205bdca44acb6ef15e510c121e35c45e0a0e4a1c7bf0faaaff7f19de8d",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/gen_concealed_ext.py",
-      "source_sha256": "9434a78f6e66f3fdcff864b4dd442df05117a1644175249d1015ce1fc2852fd9",
-      "release_sha256": "9434a78f6e66f3fdcff864b4dd442df05117a1644175249d1015ce1fc2852fd9",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/maint_experiment.py",
-      "source_sha256": "493779a3c1323d1c135958f2509c30878c41e11210934970abf9989cd3e5e091",
-      "release_sha256": "493779a3c1323d1c135958f2509c30878c41e11210934970abf9989cd3e5e091",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/maint_extract.py",
-      "source_sha256": "9e4541d04a33b0b03c46e4769ce47d1cd99f9ae53833eec9a4a0e0b7aaed5147",
-      "release_sha256": "601938f6825493876bcc73ae5b691c96531e3de46705fb3492e8c128ff147137",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/qwen38_target3_eval.py",
-      "source_sha256": "bf0771ec4a66509faaab4b0922f3c42ba88e96c28da337ab147c26f1854c3b97",
-      "release_sha256": "bf0771ec4a66509faaab4b0922f3c42ba88e96c28da337ab147c26f1854c3b97",
-      "adapted": true
-    },
-    {
       "file": "scripts/runs/run_phase2.py",
       "source_sha256": "33230a861fbd2347fab8693c61e1db847200878d658bdde9314c08a6cf333d5d",
       "release_sha256": "404acba1e809038d039be9f5193425d639f03549f4d16351e63a8bc22d1ef8c8",
       "adapted": true
     },
     {
-      "file": "scripts/runs/run_phase2_ext.py",
-      "source_sha256": "e64db88a3193d2de1bed75cb0dc802c5a1b491473befa99ed700a637f6559d32",
-      "release_sha256": "e64db88a3193d2de1bed75cb0dc802c5a1b491473befa99ed700a637f6559d32",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/server_gpu_window.py",
-      "source_sha256": "710d2536b2789f87cc0301dc834c199b62d94a8c40366f9341ca620ba7e3685a",
-      "release_sha256": "b40aba30fb9942c9a58b16b7bc8194e57919d3af71e6425cdcf70ffdaadd639d",
-      "adapted": true
-    },
-    {
       "file": "scripts/runs/server_phase1.py",
       "source_sha256": "f92d2771233b3e08b7aba2c2b828c386bdd67822815141dcd01ad87f93e8c430",
       "release_sha256": "08b209eb2f5b8e0f439f5b1aa6c862c6a12b3bb6b252d7abaeabbfe672111e06",
-      "adapted": true
-    },
-    {
-      "file": "scripts/runs/target2_eval.py",
-      "source_sha256": "fd3c38309a81d38d3475f6631123d30c41f0df812dffdfb72722a0ed95dc6a6a",
-      "release_sha256": "fd3c38309a81d38d3475f6631123d30c41f0df812dffdfb72722a0ed95dc6a6a",
       "adapted": true
     },
     {
@@ -107,26 +47,20 @@
     {
       "file": "benchmarks/RAD-code/README.md",
       "source_sha256": "601c2243e807138ba0bdbd5fa3faa4d575f6728bb32b4c51bd322a68aa3d0184",
-      "release_sha256": "601c2243e807138ba0bdbd5fa3faa4d575f6728bb32b4c51bd322a68aa3d0184",
-      "adapted": false
+      "release_sha256": "4bb169f7c6db67fd39e6637f6e08b7fa0a54a95b87a2c0a96c00ff2d21dbe8a0",
+      "adapted": true
     },
     {
       "file": "benchmarks/RAD-code/pyproject.toml",
       "source_sha256": "1cdb0d2c22f77b6fd9e87999d2388bf0fa38a08792e98131f670fe76a3ad6f41",
-      "release_sha256": "1cdb0d2c22f77b6fd9e87999d2388bf0fa38a08792e98131f670fe76a3ad6f41",
-      "adapted": false
+      "release_sha256": "341d36e85ce26cf4150e62f359f48e75f93a8e1b656e1c8d2c03fef0170eb6cd",
+      "adapted": true
     },
     {
       "file": "benchmarks/RAD-code/src/rad_defense/__init__.py",
       "source_sha256": "08ab1e1de5ea67d3a5c65b4814be110a3f1e26a4ce550077847ac93085da2990",
-      "release_sha256": "08ab1e1de5ea67d3a5c65b4814be110a3f1e26a4ce550077847ac93085da2990",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense/annotation.py",
-      "source_sha256": "d16c464bde6a643a5ee515b0666f41be1c95967f83de17a2984cd4abc2f1221e",
-      "release_sha256": "d16c464bde6a643a5ee515b0666f41be1c95967f83de17a2984cd4abc2f1221e",
-      "adapted": false
+      "release_sha256": "db12a9f30705b480956b11b4aac850673d280991561cb009084dc09bc47f2208",
+      "adapted": true
     },
     {
       "file": "benchmarks/RAD-code/src/rad_defense/artifacts.py",
@@ -135,27 +69,9 @@
       "adapted": false
     },
     {
-      "file": "benchmarks/RAD-code/src/rad_defense/attacks.py",
-      "source_sha256": "0a14068221e2b5d799446c7503883a507a40fc0c349440a43d2c5f674e84b5be",
-      "release_sha256": "0a14068221e2b5d799446c7503883a507a40fc0c349440a43d2c5f674e84b5be",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense/cli.py",
-      "source_sha256": "59514165aa0facb8369438aa12b867d2f4c72d27330b112acee841933ec0cf0b",
-      "release_sha256": "59514165aa0facb8369438aa12b867d2f4c72d27330b112acee841933ec0cf0b",
-      "adapted": false
-    },
-    {
       "file": "benchmarks/RAD-code/src/rad_defense/config.py",
       "source_sha256": "7834737ff9e253d15205afffe011c89d0056de60c03930bd286607b6b5ba1816",
       "release_sha256": "7834737ff9e253d15205afffe011c89d0056de60c03930bd286607b6b5ba1816",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense/curation.py",
-      "source_sha256": "e9b94fcc78d9701c99208693839eda6294817718c77dd4f3c271307fbff877ef",
-      "release_sha256": "e9b94fcc78d9701c99208693839eda6294817718c77dd4f3c271307fbff877ef",
       "adapted": false
     },
     {
@@ -168,12 +84,6 @@
       "file": "benchmarks/RAD-code/src/rad_defense/detector.py",
       "source_sha256": "b1b2f32f1fe1d6dc9fdb66ce2d6bac2067a0d5e0bb3c0b9c40961707bb146c6a",
       "release_sha256": "b1b2f32f1fe1d6dc9fdb66ce2d6bac2067a0d5e0bb3c0b9c40961707bb146c6a",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense/evaluation.py",
-      "source_sha256": "e2de5f497429138a6559bb53c0904a0624c6216be364748ae8fb5cef4a1c1ace",
-      "release_sha256": "e2de5f497429138a6559bb53c0904a0624c6216be364748ae8fb5cef4a1c1ace",
       "adapted": false
     },
     {
@@ -228,48 +138,6 @@
       "file": "benchmarks/RAD-code/src/rad_defense/prompts/strongreject_system.txt",
       "source_sha256": "07210905b2ccfee2fe9276fe4d044b0bee1662a73e58f6649864a81dd137622c",
       "release_sha256": "07210905b2ccfee2fe9276fe4d044b0bee1662a73e58f6649864a81dd137622c",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense/reproduce.py",
-      "source_sha256": "6a2fefac250df5c31b155693d7afcf90a2c333447acb1d3069c645ad29a13d01",
-      "release_sha256": "6a2fefac250df5c31b155693d7afcf90a2c333447acb1d3069c645ad29a13d01",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/PKG-INFO",
-      "source_sha256": "cdec7f9bde0d622d7e7ae7e8038c8620e04f91d4de607f65a89151e86d446fb3",
-      "release_sha256": "cdec7f9bde0d622d7e7ae7e8038c8620e04f91d4de607f65a89151e86d446fb3",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/SOURCES.txt",
-      "source_sha256": "202150f1a986e7cdad9e388661db366cab2df449ae1aaad8d9e56f068f433dc1",
-      "release_sha256": "202150f1a986e7cdad9e388661db366cab2df449ae1aaad8d9e56f068f433dc1",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/dependency_links.txt",
-      "source_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "release_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/entry_points.txt",
-      "source_sha256": "bfaee74047efcc7190b96489e1881f36fad99448287552b0ee2a89d944621025",
-      "release_sha256": "bfaee74047efcc7190b96489e1881f36fad99448287552b0ee2a89d944621025",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/requires.txt",
-      "source_sha256": "cce2ca3960f7134d345d7b43c83452c1a74245c1f0d7cc7e3dfc1645c4708be1",
-      "release_sha256": "cce2ca3960f7134d345d7b43c83452c1a74245c1f0d7cc7e3dfc1645c4708be1",
-      "adapted": false
-    },
-    {
-      "file": "benchmarks/RAD-code/src/rad_defense.egg-info/top_level.txt",
-      "source_sha256": "5cb3931592c31b333cee002f9cd3fa36baab8fd4566210df0f57ea37cc243e6f",
-      "release_sha256": "5cb3931592c31b333cee002f9cd3fa36baab8fd4566210df0f57ea37cc243e6f",
       "adapted": false
     },
     {
